@@ -1,0 +1,1469 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2020-06-14">
+    <creator>NetworkX 2.4</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="connection_type" type="string" />
+    </attributes>
+    <nodes>
+      <node id="DpStGraphTest" label="DpStGraphTest" />
+      <node id="YieldSignStageApproach" label="YieldSignStageApproach" />
+      <node id="StopSignUnprotectedScenario" label="StopSignUnprotectedScenario" />
+      <node id="AutotuningFeatureBuilder" label="AutotuningFeatureBuilder" />
+      <node id="Rerouting" label="Rerouting" />
+      <node id="OpenSpaceTrajectoryPartition" label="OpenSpaceTrajectoryPartition" />
+      <node id="TrafficLightUnprotectedLeftTurnStageIntersectionCruise" label="TrafficLightUnprotectedLeftTurnStageIntersectionCruise" />
+      <node id="FeasibleRegion" label="FeasibleRegion" />
+      <node id="PathDecision" label="PathDecision" />
+      <node id="Trajectory1dGenerator" label="Trajectory1dGenerator" />
+      <node id="EmergencyPullOverStageSlowDown" label="EmergencyPullOverStageSlowDown" />
+      <node id="AutotuningBaseModel" label="AutotuningBaseModel" />
+      <node id="Spline1dSeg" label="Spline1dSeg" />
+      <node id="Spline2dConstraint" label="Spline2dConstraint" />
+      <node id="LaneChangeDecider" label="LaneChangeDecider" />
+      <node id="OpenSpaceFallbackDecider" label="OpenSpaceFallbackDecider" />
+      <node id="OpenSpaceInfo" label="OpenSpaceInfo" />
+      <node id="Smoother" label="Smoother" />
+      <node id="PathBoundsDecider" label="PathBoundsDecider" />
+      <node id="StopSignUnprotectedStagePreStop" label="StopSignUnprotectedStagePreStop" />
+      <node id="SamplePoint" label="SamplePoint" />
+      <node id="Spline2d" label="Spline2d" />
+      <node id="PiecewiseJerkPathOptimizer" label="PiecewiseJerkPathOptimizer" />
+      <node id="TrafficLightUnprotectedLeftTurnStageCreep" label="TrafficLightUnprotectedLeftTurnStageCreep" />
+      <node id="DpRoadGraph" label="DpRoadGraph" />
+      <node id="StandingStillTrajectory1d" label="StandingStillTrajectory1d" />
+      <node id="ParkAndGoStageCheck" label="ParkAndGoStageCheck" />
+      <node id="PathTimeGraph" label="PathTimeGraph" />
+      <node id="StGraphData" label="StGraphData" />
+      <node id="OpenSpaceTrajectoryProvider" label="OpenSpaceTrajectoryProvider" />
+      <node id="PiecewiseQuinticSpiralPath" label="PiecewiseQuinticSpiralPath" />
+      <node id="HistoryStatus" label="HistoryStatus" />
+      <node id="HybridAResultContainer" label="HybridAResultContainer" />
+      <node id="OpenSpaceTrajectoryThreadData" label="OpenSpaceTrajectoryThreadData" />
+      <node id="VehicleConfig" label="VehicleConfig" />
+      <node id="PlanningComponent" label="PlanningComponent" />
+      <node id="PlanningBase" label="PlanningBase" />
+      <node id="STObstaclesProcessor" label="STObstaclesProcessor" />
+      <node id="KeepClear" label="KeepClear" />
+      <node id="TrafficLightProtectedScenario" label="TrafficLightProtectedScenario" />
+      <node id="StageApproachingParkingSpot" label="StageApproachingParkingSpot" />
+      <node id="TrafficLightUnprotectedLeftTurnStageApproach" label="TrafficLightUnprotectedLeftTurnStageApproach" />
+      <node id="SunnyvaleLoopTest" label="SunnyvaleLoopTest" />
+      <node id="History" label="History" />
+      <node id="PiecewiseLinearConstraint" label="PiecewiseLinearConstraint" />
+      <node id="SpiralReferenceLineSmoother" label="SpiralReferenceLineSmoother" />
+      <node id="PathLaneBorrowDecider" label="PathLaneBorrowDecider" />
+      <node id="SunnyvaleBigLoopTest" label="SunnyvaleBigLoopTest" />
+      <node id="Spline2dSolver" label="Spline2dSolver" />
+      <node id="BareIntersectionUnprotectedStageApproach" label="BareIntersectionUnprotectedStageApproach" />
+      <node id="QuinticSpiralPath" label="QuinticSpiralPath" />
+      <node id="ReferenceLineEnd" label="ReferenceLineEnd" />
+      <node id="Spline1d" label="Spline1d" />
+      <node id="TrafficLight" label="TrafficLight" />
+      <node id="PiecewiseJerkProblem" label="PiecewiseJerkProblem" />
+      <node id="Task" label="Task" />
+      <node id="SpeedData" label="SpeedData" />
+      <node id="ActiveSetSpline1dSolver" label="ActiveSetSpline1dSolver" />
+      <node id="StopSignUnprotectedStageCreep" label="StopSignUnprotectedStageCreep" />
+      <node id="NaviSpeedDecider" label="NaviSpeedDecider" />
+      <node id="SpeedOptimizer" label="SpeedOptimizer" />
+      <node id="ReferenceLineInfoTest" label="ReferenceLineInfoTest" />
+      <node id="FrameHistory" label="FrameHistory" />
+      <node id="YieldSignScenario" label="YieldSignScenario" />
+      <node id="HybridAStartResult" label="HybridAStartResult" />
+      <node id="SmootherUtil" label="SmootherUtil" />
+      <node id="PiecewiseJerkPathProblem" label="PiecewiseJerkPathProblem" />
+      <node id="TrafficLightProtectedStageIntersectionCruise" label="TrafficLightProtectedStageIntersectionCruise" />
+      <node id="ConstantJerkTrajectory1d" label="ConstantJerkTrajectory1d" />
+      <node id="ADCCurrentInfo" label="ADCCurrentInfo" />
+      <node id="Spline1dConstraint" label="Spline1dConstraint" />
+      <node id="IndexedList" label="IndexedList" />
+      <node id="SpeedLimitTest" label="SpeedLimitTest" />
+      <node id="DualVariableWarmStartIPOPTQPInterface" label="DualVariableWarmStartIPOPTQPInterface" />
+      <node id="PathDecider" label="PathDecider" />
+      <node id="EmergencyPullOverScenario" label="EmergencyPullOverScenario" />
+      <node id="PolynomialXd" label="PolynomialXd" />
+      <node id="LatticeTrajectory1d" label="LatticeTrajectory1d" />
+      <node id="OnLanePlannerDispatcher" label="OnLanePlannerDispatcher" />
+      <node id="BoundaryType" label="BoundaryType" />
+      <node id="EmergencyPullOverStageApproach" label="EmergencyPullOverStageApproach" />
+      <node id="StopSignUnprotectedStageStop" label="StopSignUnprotectedStageStop" />
+      <node id="QuinticSpiralPathWithDerivation" label="QuinticSpiralPathWithDerivation" />
+      <node id="OpenSpacePreStopDecider" label="OpenSpacePreStopDecider" />
+      <node id="DistanceApproachInterface" label="DistanceApproachInterface" />
+      <node id="DualVariableWarmStartOSQPInterfaceTest" label="DualVariableWarmStartOSQPInterfaceTest" />
+      <node id="TrajectoryCost" label="TrajectoryCost" />
+      <node id="RuleBasedStopDecider" label="RuleBasedStopDecider" />
+      <node id="PlanningTestBase" label="PlanningTestBase" />
+      <node id="DpRoadGraphNode" label="DpRoadGraphNode" />
+      <node id="PullOverScenario" label="PullOverScenario" />
+      <node id="YieldSign" label="YieldSign" />
+      <node id="OsqpSpline1dSolver" label="OsqpSpline1dSolver" />
+      <node id="BacksideVehicle" label="BacksideVehicle" />
+      <node id="ThreadSafeIndexedList" label="ThreadSafeIndexedList" />
+      <node id="ReferenceLineSmoother" label="ReferenceLineSmoother" />
+      <node id="ParkAndGoContext" label="ParkAndGoContext" />
+      <node id="SpeedDecider" label="SpeedDecider" />
+      <node id="ComparableCost" label="ComparableCost" />
+      <node id="Spline1dKernel" label="Spline1dKernel" />
+      <node id="OsqpSpline2dSolver" label="OsqpSpline2dSolver" />
+      <node id="PullOverStageRetryApproachParking" label="PullOverStageRetryApproachParking" />
+      <node id="STBoundary" label="STBoundary" />
+      <node id="ReferenceLineInfo" label="ReferenceLineInfo" />
+      <node id="NarrowStreetUTurnScenario" label="NarrowStreetUTurnScenario" />
+      <node id="PathAssessmentDecider" label="PathAssessmentDecider" />
+      <node id="ParkAndGoStageCruise" label="ParkAndGoStageCruise" />
+      <node id="NaviObstacleDecider" label="NaviObstacleDecider" />
+      <node id="EmergencyStopStageStandby" label="EmergencyStopStageStandby" />
+      <node id="IndexedQueue" label="IndexedQueue" />
+      <node id="NaviTask" label="NaviTask" />
+      <node id="RoadGraphMessage" label="RoadGraphMessage" />
+      <node id="ActiveSetSpline2dSolver" label="ActiveSetSpline2dSolver" />
+      <node id="PlannerDispatcher" label="PlannerDispatcher" />
+      <node id="PolynomialCurve1d" label="PolynomialCurve1d" />
+      <node id="Spline1dSolver" label="Spline1dSolver" />
+      <node id="STPoint" label="STPoint" />
+      <node id="EmergencyStopStageApproach" label="EmergencyStopStageApproach" />
+      <node id="StopSignUnprotectedStageIntersectionCruise" label="StopSignUnprotectedStageIntersectionCruise" />
+      <node id="YieldSignContext" label="YieldSignContext" />
+      <node id="LocalView" label="LocalView" />
+      <node id="STBoundsDecider" label="STBoundsDecider" />
+      <node id="Stage" label="Stage" />
+      <node id="ParkAndGoStageAdjust" label="ParkAndGoStageAdjust" />
+      <node id="BackupTrajectoryGenerator" label="BackupTrajectoryGenerator" />
+      <node id="NaviSpeedTsGraph" label="NaviSpeedTsGraph" />
+      <node id="ReferenceLineProvider" label="ReferenceLineProvider" />
+      <node id="TrafficLightUnprotectedLeftTurnContext" label="TrafficLightUnprotectedLeftTurnContext" />
+      <node id="RssDecider" label="RssDecider" />
+      <node id="DistanceApproachIPOPTRelaxEndInterface" label="DistanceApproachIPOPTRelaxEndInterface" />
+      <node id="EmergencyPullOverStageStandby" label="EmergencyPullOverStageStandby" />
+      <node id="STDrivingLimits" label="STDrivingLimits" />
+      <node id="TrafficRule" label="TrafficRule" />
+      <node id="PiecewiseJerkTrajectory1d" label="PiecewiseJerkTrajectory1d" />
+      <node id="TrafficLightUnprotectedRightTurnStageCreep" label="TrafficLightUnprotectedRightTurnStageCreep" />
+      <node id="TrafficLightProtectedContext" label="TrafficLightProtectedContext" />
+      <node id="StopSignUnprotectedContext" label="StopSignUnprotectedContext" />
+      <node id="AutotuningSpeedMLPModel" label="AutotuningSpeedMLPModel" />
+      <node id="PullOverStageApproach" label="PullOverStageApproach" />
+      <node id="DiscretePointsReferenceLineSmoother" label="DiscretePointsReferenceLineSmoother" />
+      <node id="STGuideLine" label="STGuideLine" />
+      <node id="BareIntersectionUnprotectedContext" label="BareIntersectionUnprotectedContext" />
+      <node id="PiecewiseLinearKernel" label="PiecewiseLinearKernel" />
+      <node id="PathTimeHeuristicOptimizer" label="PathTimeHeuristicOptimizer" />
+      <node id="StopSign" label="StopSign" />
+      <node id="ParkAndGoScenario" label="ParkAndGoScenario" />
+      <node id="ScenarioStatus" label="ScenarioStatus" />
+      <node id="TrafficLightProtectedStageApproach" label="TrafficLightProtectedStageApproach" />
+      <node id="PlannerWithReferenceLine" label="PlannerWithReferenceLine" />
+      <node id="DistanceApproachIPOPTInterface" label="DistanceApproachIPOPTInterface" />
+      <node id="ParkAndGoStagePreCruise" label="ParkAndGoStagePreCruise" />
+      <node id="Curve1d" label="Curve1d" />
+      <node id="BareIntersectionUnprotectedStageIntersectionCruise" label="BareIntersectionUnprotectedStageIntersectionCruise" />
+      <node id="QuarticPolynomialCurve1d" label="QuarticPolynomialCurve1d" />
+      <node id="HistoryTest" label="HistoryTest" />
+      <node id="CreepDecider" label="CreepDecider" />
+      <node id="AutotuningSpeedFeatureBuilder" label="AutotuningSpeedFeatureBuilder" />
+      <node id="YieldSignStageCreep" label="YieldSignStageCreep" />
+      <node id="RTKReplayPlanner" label="RTKReplayPlanner" />
+      <node id="LaneFollowScenario" label="LaneFollowScenario" />
+      <node id="AffineConstraint" label="AffineConstraint" />
+      <node id="Decider" label="Decider" />
+      <node id="Frame" label="Frame" />
+      <node id="EmergencyPullOverContext" label="EmergencyPullOverContext" />
+      <node id="ReferenceLine" label="ReferenceLine" />
+      <node id="Spline2dSeg" label="Spline2dSeg" />
+      <node id="TrafficLightUnprotectedRightTurnStageStop" label="TrafficLightUnprotectedRightTurnStageStop" />
+      <node id="ValetParkingContext" label="ValetParkingContext" />
+      <node id="DiscretizedPath" label="DiscretizedPath" />
+      <node id="ConstantDecelerationTrajectory1d" label="ConstantDecelerationTrajectory1d" />
+      <node id="NavigationModeTest" label="NavigationModeTest" />
+      <node id="QpSplineReferenceLineSmoother" label="QpSplineReferenceLineSmoother" />
+      <node id="PiecewiseJerkSpeedNonlinearOptimizer" label="PiecewiseJerkSpeedNonlinearOptimizer" />
+      <node id="TrajectoryOptimizer" label="TrajectoryOptimizer" />
+      <node id="PiecewiseJerkSpeedNonlinearIpoptInterface" label="PiecewiseJerkSpeedNonlinearIpoptInterface" />
+      <node id="FeatureGenerator" label="FeatureGenerator" />
+      <node id="NaviPathDecider" label="NaviPathDecider" />
+      <node id="PathOptimizer" label="PathOptimizer" />
+      <node id="SpeedBoundsDecider" label="SpeedBoundsDecider" />
+      <node id="Planner" label="Planner" />
+      <node id="Obstacle" label="Obstacle" />
+      <node id="DistanceApproachIPOPTFixedDualInterface" label="DistanceApproachIPOPTFixedDualInterface" />
+      <node id="DistanceApproachIPOPTFixedTsInterface" label="DistanceApproachIPOPTFixedTsInterface" />
+      <node id="PathReuseDecider" label="PathReuseDecider" />
+      <node id="DistanceApproachIPOPTCUDAInterface" label="DistanceApproachIPOPTCUDAInterface" />
+      <node id="PullOverStageRetryParking" label="PullOverStageRetryParking" />
+      <node id="CollisionChecker" label="CollisionChecker" />
+      <node id="PullOverContext" label="PullOverContext" />
+      <node id="TrafficLightUnprotectedRightTurnContext" label="TrafficLightUnprotectedRightTurnContext" />
+      <node id="OpenSpaceInfoTest" label="OpenSpaceInfoTest" />
+      <node id="PiecewiseJerkSpeedOptimizer" label="PiecewiseJerkSpeedOptimizer" />
+      <node id="ScenarioContext" label="ScenarioContext" />
+      <node id="NaviPlanning" label="NaviPlanning" />
+      <node id="StGraphPoint" label="StGraphPoint" />
+      <node id="GriddedPathTimeGraph" label="GriddedPathTimeGraph" />
+      <node id="Scenario" label="Scenario" />
+      <node id="PiecewiseTrajectory1d" label="PiecewiseTrajectory1d" />
+      <node id="LateralOSQPOptimizer" label="LateralOSQPOptimizer" />
+      <node id="NaviPlanner" label="NaviPlanner" />
+      <node id="EmergencyStopScenario" label="EmergencyStopScenario" />
+      <node id="PublishableTrajectory" label="PublishableTrajectory" />
+      <node id="QuinticPolynomialCurve1d" label="QuinticPolynomialCurve1d" />
+      <node id="LateralQPOptimizer" label="LateralQPOptimizer" />
+      <node id="Spline2dKernel" label="Spline2dKernel" />
+      <node id="DistanceApproachIPOPTRelaxEndSlackInterface" label="DistanceApproachIPOPTRelaxEndSlackInterface" />
+      <node id="PublicRoadPlanner" label="PublicRoadPlanner" />
+      <node id="TestLearningModelScenario" label="TestLearningModelScenario" />
+      <node id="ScenarioManager" label="ScenarioManager" />
+      <node id="Crosswalk" label="Crosswalk" />
+      <node id="StageParking" label="StageParking" />
+      <node id="PiecewiseAccelerationTrajectory1d" label="PiecewiseAccelerationTrajectory1d" />
+      <node id="GearSwitchStates" label="GearSwitchStates" />
+      <node id="CubicPolynomialCurve1d" label="CubicPolynomialCurve1d" />
+      <node id="ResultContainer" label="ResultContainer" />
+      <node id="BareIntersectionUnprotectedScenario" label="BareIntersectionUnprotectedScenario" />
+      <node id="ValetParkingScenario" label="ValetParkingScenario" />
+      <node id="PiecewiseJerkSpeedProblem" label="PiecewiseJerkSpeedProblem" />
+      <node id="FrenetFramePath" label="FrenetFramePath" />
+      <node id="SpeedLimit" label="SpeedLimit" />
+      <node id="TrafficLightUnprotectedRightTurnScenario" label="TrafficLightUnprotectedRightTurnScenario" />
+      <node id="NaviPlannerDispatcher" label="NaviPlannerDispatcher" />
+      <node id="DiscretizedTrajectory" label="DiscretizedTrajectory" />
+      <node id="WaypointSampler" label="WaypointSampler" />
+      <node id="StBoundaryMapperTest" label="StBoundaryMapperTest" />
+      <node id="OnLanePlanning" label="OnLanePlanning" />
+      <node id="OpenSpaceTrajectoryOptimizer" label="OpenSpaceTrajectoryOptimizer" />
+      <node id="PathData" label="PathData" />
+      <node id="LatticePlanner" label="LatticePlanner" />
+      <node id="EmergencyStopContext" label="EmergencyStopContext" />
+      <node id="StageIntersectionCruiseImpl" label="StageIntersectionCruiseImpl" />
+      <node id="LaneFollowStage" label="LaneFollowStage" />
+      <node id="TrafficLightUnprotectedRightTurnStageIntersectionCruise" label="TrafficLightUnprotectedRightTurnStageIntersectionCruise" />
+      <node id="Destination" label="Destination" />
+      <node id="TrafficLightUnprotectedLeftTurnScenario" label="TrafficLightUnprotectedLeftTurnScenario" />
+      <node id="DpStCost" label="DpStCost" />
+      <node id="OpenSpaceRoiDecider" label="OpenSpaceRoiDecider" />
+      <node id="GarageTest" label="GarageTest" />
+      <node id="EndConditionSampler" label="EndConditionSampler" />
+      <node id="PiecewiseLinearGenerator" label="PiecewiseLinearGenerator" />
+    </nodes>
+    <edges>
+      <edge id="0" source="DpStGraphTest" target="StGraphData">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="DpStGraphTest" target="SpeedLimit">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="YieldSignStageApproach" target="Stage">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="StopSignUnprotectedScenario" target="StopSignUnprotectedContext">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="StopSignUnprotectedScenario" target="Scenario">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="AutotuningFeatureBuilder" target="AutotuningSpeedFeatureBuilder">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="Rerouting" target="ReferenceLineInfo">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="Rerouting" target="Frame">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="Rerouting" target="TrafficRule">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="OpenSpaceTrajectoryPartition" target="TrajectoryOptimizer">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="TrafficLightUnprotectedLeftTurnStageIntersectionCruise" target="StageIntersectionCruiseImpl">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="TrafficLightUnprotectedLeftTurnStageIntersectionCruise" target="Stage">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="FeasibleRegion" target="EndConditionSampler">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="PathDecision" target="STObstaclesProcessor">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="PathDecision" target="ReferenceLineInfo">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="PathDecision" target="IndexedList">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="Trajectory1dGenerator" target="BackupTrajectoryGenerator">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="Trajectory1dGenerator" target="EndConditionSampler">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="EmergencyPullOverStageSlowDown" target="Stage">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="AutotuningBaseModel" target="AutotuningSpeedMLPModel">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="Spline1dSeg" target="PolynomialXd">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="Spline2dConstraint" target="Spline2dSolver">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="Spline2dConstraint" target="AffineConstraint">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="LaneChangeDecider" target="Decider">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="OpenSpaceFallbackDecider" target="Decider">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="OpenSpaceInfo" target="GearSwitchStates">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="OpenSpaceInfo" target="DiscretizedTrajectory">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="OpenSpaceInfo" target="OpenSpaceInfoTest">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="OpenSpaceInfo" target="Frame">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="Smoother" target="OnLanePlanning">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="PathBoundsDecider" target="Decider">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="StopSignUnprotectedStagePreStop" target="Stage">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="SamplePoint" target="STPoint">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="Spline2d" target="Spline2dSolver">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="PiecewiseJerkPathOptimizer" target="PathOptimizer">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="TrafficLightUnprotectedLeftTurnStageCreep" target="Stage">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="DpRoadGraph" target="SpeedData">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="StandingStillTrajectory1d" target="Curve1d">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="ParkAndGoStageCheck" target="Stage">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="PathTimeGraph" target="ReferenceLineInfo">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="StGraphData" target="ReferenceLineInfo">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="StGraphData" target="SpeedLimit">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="OpenSpaceTrajectoryProvider" target="OpenSpaceTrajectoryThreadData">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="OpenSpaceTrajectoryProvider" target="TrajectoryOptimizer">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="PiecewiseQuinticSpiralPath" target="Curve1d">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="HistoryStatus" target="History">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="HybridAResultContainer" target="HybridAStartResult">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="VehicleConfig" target="NaviPlanning">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="PlanningComponent" target="LocalView">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="PlanningBase" target="LocalView">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="PlanningBase" target="NaviPlanning">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="PlanningBase" target="OnLanePlanning">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="STObstaclesProcessor" target="PathData">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="STObstaclesProcessor" target="STBoundsDecider">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="STObstaclesProcessor" target="History">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="KeepClear" target="TrafficRule">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="TrafficLightProtectedScenario" target="TrafficLightProtectedContext">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="TrafficLightProtectedScenario" target="Scenario">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="StageApproachingParkingSpot" target="Stage">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="TrafficLightUnprotectedLeftTurnStageApproach" target="Stage">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="SunnyvaleLoopTest" target="PlanningTestBase">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="61" source="History" target="PathReuseDecider">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="62" source="History" target="HistoryTest">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="63" source="PiecewiseLinearConstraint" target="PiecewiseLinearGenerator">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="64" source="SpiralReferenceLineSmoother" target="ReferenceLineSmoother">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="65" source="PathLaneBorrowDecider" target="Decider">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="66" source="SunnyvaleBigLoopTest" target="PlanningTestBase">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="67" source="Spline2dSolver" target="OsqpSpline2dSolver">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="68" source="Spline2dSolver" target="ActiveSetSpline2dSolver">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="69" source="Spline2dSolver" target="Spline2dKernel">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="70" source="BareIntersectionUnprotectedStageApproach" target="Stage">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="71" source="QuinticSpiralPath" target="QuinticPolynomialCurve1d">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="72" source="ReferenceLineEnd" target="TrafficRule">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="73" source="Spline1d" target="Spline1dSolver">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="74" source="TrafficLight" target="TrafficRule">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="75" source="PiecewiseJerkProblem" target="PiecewiseJerkSpeedProblem">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="76" source="PiecewiseJerkProblem" target="PiecewiseJerkPathProblem">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="77" source="Task" target="Decider">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="78" source="Task" target="Frame">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="79" source="Task" target="TrajectoryOptimizer">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="80" source="Task" target="SpeedDecider">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="81" source="Task" target="ReferenceLineInfo">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="82" source="Task" target="SpeedOptimizer">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="83" source="Task" target="RssDecider">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="84" source="Task" target="PathDecider">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="85" source="Task" target="PathOptimizer">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="86" source="SpeedData" target="TrajectoryCost">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="87" source="SpeedData" target="ReferenceLineInfo">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="88" source="SpeedData" target="PiecewiseJerkSpeedNonlinearOptimizer">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="89" source="ActiveSetSpline1dSolver" target="Spline1dSolver">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="90" source="StopSignUnprotectedStageCreep" target="Stage">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="91" source="NaviSpeedDecider" target="NaviObstacleDecider">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="92" source="NaviSpeedDecider" target="NaviTask">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="93" source="NaviSpeedDecider" target="NaviSpeedTsGraph">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="94" source="SpeedOptimizer" target="PiecewiseJerkSpeedOptimizer">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="95" source="SpeedOptimizer" target="PiecewiseJerkSpeedNonlinearOptimizer">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="96" source="SpeedOptimizer" target="PathTimeHeuristicOptimizer">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="97" source="ReferenceLineInfoTest" target="ReferenceLineInfo">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="98" source="FrameHistory" target="IndexedQueue">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="99" source="YieldSignScenario" target="Scenario">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="100" source="YieldSignScenario" target="YieldSignContext">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="101" source="HybridAStartResult" target="ResultContainer">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="102" source="SmootherUtil" target="ReferenceLine">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="103" source="TrafficLightProtectedStageIntersectionCruise" target="StageIntersectionCruiseImpl">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="104" source="TrafficLightProtectedStageIntersectionCruise" target="Stage">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="105" source="ConstantJerkTrajectory1d" target="Curve1d">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="106" source="ADCCurrentInfo" target="FeatureGenerator">
+        <attvalues>
+          <attvalue for="0" value="Dependency" />
+        </attvalues>
+      </edge>
+      <edge id="107" source="Spline1dConstraint" target="Spline1dSolver">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="108" source="Spline1dConstraint" target="AffineConstraint">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="109" source="IndexedList" target="ThreadSafeIndexedList">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="110" source="SpeedLimitTest" target="SpeedLimit">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="111" source="DualVariableWarmStartIPOPTQPInterface" target="DualVariableWarmStartOSQPInterfaceTest">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="112" source="EmergencyPullOverScenario" target="EmergencyPullOverContext">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="113" source="EmergencyPullOverScenario" target="Scenario">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="114" source="PolynomialXd" target="Spline2dSeg">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="115" source="LatticeTrajectory1d" target="Curve1d">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="116" source="OnLanePlannerDispatcher" target="PlannerDispatcher">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="117" source="BoundaryType" target="STBoundary">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="118" source="EmergencyPullOverStageApproach" target="Stage">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="119" source="StopSignUnprotectedStageStop" target="Stage">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="120" source="QuinticSpiralPathWithDerivation" target="QuinticPolynomialCurve1d">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="121" source="OpenSpacePreStopDecider" target="Decider">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="122" source="DistanceApproachInterface" target="DistanceApproachIPOPTCUDAInterface">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="123" source="DistanceApproachInterface" target="DistanceApproachIPOPTInterface">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="124" source="DistanceApproachInterface" target="DistanceApproachIPOPTFixedTsInterface">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="125" source="DistanceApproachInterface" target="DistanceApproachIPOPTRelaxEndSlackInterface">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="126" source="DistanceApproachInterface" target="DistanceApproachIPOPTRelaxEndInterface">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="127" source="DistanceApproachInterface" target="DistanceApproachIPOPTFixedDualInterface">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="128" source="TrajectoryCost" target="RoadGraphMessage">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="129" source="TrajectoryCost" target="ReferenceLine">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="130" source="RuleBasedStopDecider" target="Decider">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="131" source="PlanningTestBase" target="LocalView">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="132" source="PlanningTestBase" target="GarageTest">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="133" source="PlanningTestBase" target="NavigationModeTest">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="134" source="DpRoadGraphNode" target="RoadGraphMessage">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="135" source="DpRoadGraphNode" target="DpRoadGraphNode">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="136" source="DpRoadGraphNode" target="QuinticPolynomialCurve1d">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="137" source="DpRoadGraphNode" target="ComparableCost">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="138" source="PullOverScenario" target="Scenario">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="139" source="PullOverScenario" target="PullOverContext">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="140" source="YieldSign" target="TrafficRule">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="141" source="OsqpSpline1dSolver" target="Spline1dSolver">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="142" source="BacksideVehicle" target="TrafficRule">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="143" source="ReferenceLineSmoother" target="QpSplineReferenceLineSmoother">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="144" source="ReferenceLineSmoother" target="DiscretePointsReferenceLineSmoother">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="145" source="ParkAndGoContext" target="ParkAndGoScenario">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="146" source="SpeedDecider" target="ReferenceLine">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="147" source="Spline1dKernel" target="Spline1dSolver">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="148" source="PullOverStageRetryApproachParking" target="Stage">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="149" source="STBoundary" target="Obstacle">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="150" source="STBoundary" target="STPoint">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="151" source="ReferenceLineInfo" target="PathData">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="152" source="ReferenceLineInfo" target="Frame">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="153" source="ReferenceLineInfo" target="ReferenceLine">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="154" source="ReferenceLineInfo" target="NaviTask">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="155" source="ReferenceLineInfo" target="WaypointSampler">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="156" source="ReferenceLineInfo" target="Obstacle">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="157" source="ReferenceLineInfo" target="DiscretizedTrajectory">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="158" source="ReferenceLineInfo" target="CollisionChecker">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="159" source="NarrowStreetUTurnScenario" target="Scenario">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="160" source="PathAssessmentDecider" target="Decider">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="161" source="ParkAndGoStageCruise" target="Stage">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="162" source="NaviObstacleDecider" target="NaviTask">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="163" source="NaviObstacleDecider" target="NaviPathDecider">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="164" source="EmergencyStopStageStandby" target="Stage">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="165" source="NaviTask" target="Frame">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="166" source="NaviTask" target="NaviPathDecider">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="167" source="PlannerDispatcher" target="NaviPlannerDispatcher">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="168" source="PolynomialCurve1d" target="CubicPolynomialCurve1d">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="169" source="PolynomialCurve1d" target="QuarticPolynomialCurve1d">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="170" source="PolynomialCurve1d" target="QuinticPolynomialCurve1d">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="171" source="PolynomialCurve1d" target="Curve1d">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="172" source="STPoint" target="StGraphPoint">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="173" source="EmergencyStopStageApproach" target="Stage">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="174" source="StopSignUnprotectedStageIntersectionCruise" target="StageIntersectionCruiseImpl">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="175" source="StopSignUnprotectedStageIntersectionCruise" target="Stage">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="176" source="LocalView" target="Frame">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="177" source="STBoundsDecider" target="Decider">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="178" source="STBoundsDecider" target="STDrivingLimits">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="179" source="STBoundsDecider" target="STGuideLine">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="180" source="Stage" target="TrafficLightProtectedStageApproach">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="181" source="Stage" target="BareIntersectionUnprotectedStageIntersectionCruise">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="182" source="Stage" target="ParkAndGoStageAdjust">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="183" source="Stage" target="YieldSignStageCreep">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="184" source="Stage" target="StageParking">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="185" source="Stage" target="TrafficLightUnprotectedRightTurnStageIntersectionCruise">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="186" source="Stage" target="PullOverStageRetryParking">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="187" source="Stage" target="TrafficLightUnprotectedRightTurnStageCreep">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="188" source="Stage" target="ParkAndGoStagePreCruise">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="189" source="Stage" target="EmergencyPullOverStageStandby">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="190" source="Stage" target="LaneFollowStage">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="191" source="Stage" target="TrafficLightUnprotectedRightTurnStageStop">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="192" source="Stage" target="PullOverStageApproach">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="193" source="ReferenceLineProvider" target="Frame">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="194" source="TrafficLightUnprotectedLeftTurnContext" target="TrafficLightUnprotectedLeftTurnScenario">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="195" source="TrafficRule" target="Crosswalk">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="196" source="TrafficRule" target="StopSign">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="197" source="TrafficRule" target="Destination">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="198" source="PiecewiseJerkTrajectory1d" target="Curve1d">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="199" source="PiecewiseJerkTrajectory1d" target="PiecewiseJerkSpeedNonlinearOptimizer">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="200" source="PiecewiseJerkTrajectory1d" target="PiecewiseJerkSpeedNonlinearIpoptInterface">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="201" source="BareIntersectionUnprotectedContext" target="BareIntersectionUnprotectedScenario">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="202" source="PiecewiseLinearKernel" target="PiecewiseLinearGenerator">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="203" source="ParkAndGoScenario" target="Scenario">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="204" source="ScenarioStatus" target="Scenario">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="205" source="PlannerWithReferenceLine" target="Planner">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="206" source="PlannerWithReferenceLine" target="LatticePlanner">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="207" source="PlannerWithReferenceLine" target="PublicRoadPlanner">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="208" source="PlannerWithReferenceLine" target="RTKReplayPlanner">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="209" source="PlannerWithReferenceLine" target="NaviPlanner">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="210" source="Curve1d" target="ConstantDecelerationTrajectory1d">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="211" source="Curve1d" target="PiecewiseTrajectory1d">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="212" source="Curve1d" target="PiecewiseAccelerationTrajectory1d">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="213" source="BareIntersectionUnprotectedStageIntersectionCruise" target="StageIntersectionCruiseImpl">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="214" source="CreepDecider" target="Decider">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="215" source="LaneFollowScenario" target="Scenario">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="216" source="Decider" target="SpeedBoundsDecider">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="217" source="Decider" target="PathReuseDecider">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="218" source="Decider" target="OpenSpaceRoiDecider">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="219" source="Frame" target="DiscretizedPath">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="220" source="ReferenceLine" target="PathData">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="221" source="ValetParkingContext" target="ValetParkingScenario">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="222" source="DiscretizedPath" target="PathData">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="223" source="PiecewiseJerkSpeedNonlinearOptimizer" target="SpeedLimit">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="224" source="TrafficLightUnprotectedRightTurnContext" target="TrafficLightUnprotectedRightTurnScenario">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="225" source="ScenarioContext" target="ScenarioManager">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="226" source="ScenarioContext" target="Scenario">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="227" source="StGraphPoint" target="StGraphPoint">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="228" source="GriddedPathTimeGraph" target="DpStCost">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="229" source="Scenario" target="ValetParkingScenario">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="230" source="Scenario" target="TrafficLightUnprotectedRightTurnScenario">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="231" source="Scenario" target="EmergencyStopScenario">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="232" source="Scenario" target="BareIntersectionUnprotectedScenario">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="233" source="Scenario" target="TestLearningModelScenario">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="234" source="Scenario" target="TrafficLightUnprotectedLeftTurnScenario">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="235" source="LateralOSQPOptimizer" target="LateralQPOptimizer">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="236" source="EmergencyStopScenario" target="EmergencyStopContext">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="237" source="PublishableTrajectory" target="DiscretizedTrajectory">
+        <attvalues>
+          <attvalue for="0" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="238" source="FrenetFramePath" target="PathData">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="239" source="FrenetFramePath" target="StBoundaryMapperTest">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="240" source="DiscretizedTrajectory" target="OpenSpaceTrajectoryOptimizer">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="241" source="StBoundaryMapperTest" target="PathData">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="242" source="StageIntersectionCruiseImpl" target="TrafficLightUnprotectedRightTurnStageIntersectionCruise">
+        <attvalues>
+          <attvalue for="0" value="Association" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
