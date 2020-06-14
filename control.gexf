@@ -10,25 +10,25 @@
     </attributes>
     <nodes>
       <node id="LatControllerTest" label="LatControllerTest" />
-      <node id="ControlComponent" label="ControlComponent" />
+      <node id="ControlTestBase" label="ControlTestBase" />
       <node id="LatController" label="LatController" />
-      <node id="PIDController" label="PIDController" />
+      <node id="TrajectoryAnalyzer" label="TrajectoryAnalyzer" />
+      <node id="MPCController" label="MPCController" />
+      <node id="PIDBCController" label="PIDBCController" />
+      <node id="LonControllerTest" label="LonControllerTest" />
+      <node id="MracController" label="MracController" />
+      <node id="ControllerAgent" label="ControllerAgent" />
       <node id="PIDICController" label="PIDICController" />
       <node id="Controller" label="Controller" />
       <node id="LatLonControllerSubmodule" label="LatLonControllerSubmodule" />
-      <node id="MPCControllerSubmodule" label="MPCControllerSubmodule" />
-      <node id="PIDBCController" label="PIDBCController" />
-      <node id="LonControllerTest" label="LonControllerTest" />
       <node id="LonController" label="LonController" />
-      <node id="LeadlagController" label="LeadlagController" />
-      <node id="TrajectoryAnalyzer" label="TrajectoryAnalyzer" />
-      <node id="RelativePositionTest" label="RelativePositionTest" />
-      <node id="ControllerAgent" label="ControllerAgent" />
       <node id="SimpleControlTest" label="SimpleControlTest" />
-      <node id="MPCController" label="MPCController" />
+      <node id="PIDController" label="PIDController" />
+      <node id="ControlComponent" label="ControlComponent" />
       <node id="MPCControllerTest" label="MPCControllerTest" />
-      <node id="MracController" label="MracController" />
-      <node id="ControlTestBase" label="ControlTestBase" />
+      <node id="MPCControllerSubmodule" label="MPCControllerSubmodule" />
+      <node id="LeadlagController" label="LeadlagController" />
+      <node id="RelativePositionTest" label="RelativePositionTest" />
     </nodes>
     <edges>
       <edge id="0" source="LatControllerTest" target="LatController">
@@ -37,10 +37,10 @@
           <attvalue for="1" value="Generalization" />
         </attvalues>
       </edge>
-      <edge id="1" source="ControlComponent" target="ControlTestBase">
+      <edge id="1" source="LatController" target="Controller">
         <attvalues>
           <attvalue for="0" value="0" />
-          <attvalue for="1" value="Association" />
+          <attvalue for="1" value="Generalization" />
         </attvalues>
       </edge>
       <edge id="2" source="LatController" target="LatLonControllerSubmodule">
@@ -49,118 +49,118 @@
           <attvalue for="1" value="Association" />
         </attvalues>
       </edge>
-      <edge id="3" source="LatController" target="Controller">
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="Generalization" />
-        </attvalues>
-      </edge>
-      <edge id="4" source="PIDController" target="LonController">
+      <edge id="3" source="TrajectoryAnalyzer" target="MPCController">
         <attvalues>
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Association" />
         </attvalues>
       </edge>
-      <edge id="5" source="PIDICController" target="PIDController">
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="Generalization" />
-        </attvalues>
-      </edge>
-      <edge id="6" source="PIDBCController" target="PIDController">
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="Generalization" />
-        </attvalues>
-      </edge>
-      <edge id="7" source="LonControllerTest" target="LonController">
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="Generalization" />
-        </attvalues>
-      </edge>
-      <edge id="8" source="LonController" target="LatLonControllerSubmodule">
+      <edge id="4" source="TrajectoryAnalyzer" target="LatController">
         <attvalues>
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Association" />
         </attvalues>
       </edge>
-      <edge id="9" source="LonController" target="Controller">
+      <edge id="5" source="MPCController" target="Controller">
         <attvalues>
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Generalization" />
         </attvalues>
       </edge>
-      <edge id="10" source="LeadlagController" target="LonController">
+      <edge id="6" source="MPCController" target="MPCControllerSubmodule">
         <attvalues>
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Association" />
         </attvalues>
       </edge>
-      <edge id="11" source="LeadlagController" target="LatController">
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="Association" />
-        </attvalues>
-      </edge>
-      <edge id="12" source="TrajectoryAnalyzer" target="MPCController">
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="Association" />
-        </attvalues>
-      </edge>
-      <edge id="13" source="TrajectoryAnalyzer" target="LatController">
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="Association" />
-        </attvalues>
-      </edge>
-      <edge id="14" source="RelativePositionTest" target="ControlTestBase">
+      <edge id="7" source="PIDBCController" target="PIDController">
         <attvalues>
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Generalization" />
         </attvalues>
       </edge>
-      <edge id="15" source="ControllerAgent" target="ControlComponent">
+      <edge id="8" source="LonControllerTest" target="LonController">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="MracController" target="LatController">
         <attvalues>
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Association" />
         </attvalues>
       </edge>
-      <edge id="16" source="SimpleControlTest" target="ControlTestBase">
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="Generalization" />
-        </attvalues>
-      </edge>
-      <edge id="17" source="MPCController" target="MPCControllerSubmodule">
+      <edge id="10" source="ControllerAgent" target="ControlComponent">
         <attvalues>
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Association" />
         </attvalues>
       </edge>
-      <edge id="18" source="MPCController" target="Controller">
+      <edge id="11" source="PIDICController" target="PIDController">
         <attvalues>
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Generalization" />
         </attvalues>
       </edge>
-      <edge id="19" source="MPCControllerTest" target="MPCController">
+      <edge id="12" source="LonController" target="Controller">
         <attvalues>
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Generalization" />
         </attvalues>
       </edge>
-      <edge id="20" source="MPCControllerTest" target="ControlTestBase">
-        <attvalues>
-          <attvalue for="0" value="0" />
-          <attvalue for="1" value="Generalization" />
-        </attvalues>
-      </edge>
-      <edge id="21" source="MracController" target="LatController">
+      <edge id="13" source="LonController" target="LatLonControllerSubmodule">
         <attvalues>
           <attvalue for="0" value="0" />
           <attvalue for="1" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="SimpleControlTest" target="ControlTestBase">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="PIDController" target="LonController">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="ControlComponent" target="ControlTestBase">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="MPCControllerTest" target="MPCController">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="MPCControllerTest" target="ControlTestBase">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Generalization" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="LeadlagController" target="LatController">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="LeadlagController" target="LonController">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Association" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="RelativePositionTest" target="ControlTestBase">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Generalization" />
         </attvalues>
       </edge>
     </edges>

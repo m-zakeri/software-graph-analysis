@@ -9,12 +9,15 @@ from networkx.algorithms.isomorphism import isomorphvf2
 from subgraph_finder import subgraph_match
 
 
-def show_degree_distribiution(G):
+def show_degree_distribiution(G,grap_path):
     degree_sequence = sorted([d for n, d in G.degree()], reverse=True)
     plt.loglog(degree_sequence, '.', marker='o')
     plt.title("Degree Histogram")
     plt.ylabel("Count")
     plt.xlabel("Degree")
+    plt.savefig(grap_path)
+    plt.show()
+
 
 
 def average_degree(G):
@@ -72,4 +75,4 @@ def create_graph_from_connection(connctions,graph_path):
 
 
     export_gephi_project(G, graph_path)
-    # plt.show()
+    show_degree_distribiution(G,graph_path)
